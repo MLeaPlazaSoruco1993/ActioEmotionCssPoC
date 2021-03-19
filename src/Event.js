@@ -5,7 +5,6 @@ import { Image, Box, Flex, jsx, Text } from 'theme-ui';
 import { useState } from 'react'
 import { Button } from './Button';
 import { ViewDetails } from './ViewDetails';
-import { Link } from './icons';
 
 export const Event = () => {
     const [style, setStyle] = useState({ display: 'none' })

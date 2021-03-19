@@ -2,7 +2,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { Image, Box, Flex, jsx, Text } from 'theme-ui';
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Activity } from './Activity';
 import { Remote } from './Remote';
 import { Button } from './Button';

@@ -1,10 +1,9 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { Flex, jsx } from 'theme-ui';
-import React from 'react'
 import { Event } from './Event'
 import { MultipleEvent } from './MutipleEvent'
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
+import Masonry from 'react-responsive-masonry'
 function App() {
   return (
     <Flex>
